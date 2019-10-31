@@ -1,0 +1,184 @@
+/*
+
+font-family: "acumin-pro",sans-serif;
+font-family: "acumin-pro-condensed",sans-serif;
+
+*/
+
+body {
+    font-family: "acumin-pro",sans-serif;
+    background-image: url("../index_files/img/FB_BG.png");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.dt {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.dc {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.ts {
+    width: 23%;
+    float: left;
+}
+
+.ts .ti {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.ts .ti img {
+    width: 100%;
+    height: auto;
+}
+
+.c {
+    color: #FFFFFF;
+    font-size: 100px;
+    line-height: 100px;
+    float: left;
+    width: 2.6%;
+    padding-top: 60px;
+}
+
+.t {
+    color: #FFFFFF;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: "acumin-pro-condensed",sans-serif;
+    line-height: 90px;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+.t strong {
+    font-weight: 600;
+}
+
+.l {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+#countdown {
+    margin: 80px 0;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+.snowflake:hover {
+    cursor: default;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1570px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    .c {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .c {
+        padding-top: 28px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    
+    .l {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .t {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .c {
+        padding-top: 9px;
+    }
+    
+    .t {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 6px;
+    }
+    
+    .l {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 640px) {
+    .c {
+        font-size: 50px;
+        line-height: 40px;
+        padding-top: 19px;
+    }
+    
+    .l {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 640px) {
+    .c {
+        padding-top: 9px;
+    }
+}
+
+@media (max-width: 460px) {
+    .c {
+        font-size: 30px;
+        line-height: 20px;
+        padding-top: 15px;
+    }
+    
+    .t {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 390px) {
+    .c {
+        padding-top: 10px;
+    }
+}
