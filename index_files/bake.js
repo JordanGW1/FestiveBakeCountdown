@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
     
     function display_date() {
         var date_now     = new Date();
-        var date_festive = new Date("Thurs Nov 07 2019 00:00:00 GMT+0000");
+        var date_festive = new Date("Thurs Nov 10 2022 00:00:00 GMT+0000");
         
         var seconds = ((date_festive - date_now) / 1000);
         var days    = Math.floor(seconds / 86400).toString();
